@@ -2,7 +2,7 @@
 void main(){
     int *f1,*f2;
     char c;
-    f1=fopen("Abc.txt","w");
+    f3=fopen("Abc.txt","w");
     f2=fopen("bcd.txt","w");
     fputc("add",f1);
     while ((ch==fgetc(f1))!=EOF){
