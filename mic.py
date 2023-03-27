@@ -9,7 +9,7 @@ RATE = 44100
 CHUNK_SIZE = 1024
 
 # open audio file for comparison
-data, _ = sf.read('recording.wav')
+data, _ = sf.read("recording.wav")
 pre_existing_file = np.array(data)
 
 # initialize pyaudio object
