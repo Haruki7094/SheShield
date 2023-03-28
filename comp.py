@@ -3,7 +3,7 @@ import speech_recognition as sr
 from fuzzywuzzy import fuzz
 
 # Define the directory where the audio files are located
-audio_dir = "C:/Users/DELL/Documents/sheshield"
+audio_dir = "C:\Users\gullu\Documents\sheshield1\SheShield"
 
 # Create a list of audio file names in the directory
 audio_files =[f for f in os.listdir(audio_dir) if f.endswith(".wav")]
